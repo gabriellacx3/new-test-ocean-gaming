@@ -1,0 +1,127 @@
+body {
+  background: rgb(53, 56, 228);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+.big-fact {
+  background-image: url(images/wasteOnBeach.jpg);
+  background-position: top;
+  background-size: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  height: 400px;
+  margin: 0;
+  padding-top: 200px;
+  text-align: center;
+  text-shadow: -3px 3px black;
+}
+
+.facts {
+  background-color: black;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+
+.why-matters {
+  background-color: rgb(54, 54, 54);
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 7px;
+}
+
+.what-to-do {
+  background-color: rgb(53, 56, 228);
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.right-images {
+  text-align: left;
+  margin-right: 6%;
+  float: right;
+}
+
+.left-images {
+  text-align: right;
+  margin-left: 4%;
+  float: left;
+  padding-right: 70px;
+}
+
+.crop {
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  text-align: left;
+  margin-right: 4%;
+  float: right;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: left;
+  padding-left: 150px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+  text-align: left;
+  padding-left: 100px;
+}
+
+li {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+}
+
+.game-button-container {
+  text-align: right;
+}
+
+.back-button-container {
+  margin: 50px 0px;
+  text-align: left;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 16px 24px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgb(58, 58, 58);
+}
+
+#canvas {
+  background: black;
+  padding-left: 0;
+  padding-right: 0;
+  margin: auto;
+  display: block;
+}
