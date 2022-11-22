@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="tabs.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Plastic Pollution</title>
+  </head>
+  <body>
+    <div id="info" data-tab-content class="active">
+      <h1>Plastic Pollution</h1>
+      <div class="game-button-container">
+        <button type="button" id="game-button" title="Cleanup Game">Cleanup Game</button>
+      </div>
+      <div class="big-fact">
+        8 million tons of plastic leak into the ocean every year.
+      </div>
+      <section class="facts">
+        <ul data-aos="fade-up">
+          <img src="images/plasticPollution.jpg" height=300px width=600px class="crop">
+          <li>
+            1,000,000 marine animals die due to plastic pollution every year.
+          </li>
+          <li>About 91% of plastic is not recycled.</li>
+        </ul>
+      </section>
+      <section class="why-matters">
+        <img data-aos="fade-right" src="images/deadFish.jpg" height=400px width=600px class="left-images">
+        <h2 data-aos="flip-up">Why This Matters</h2>
+        <ul data-aos="fade-right">
+          <li>
+            Plastic takes around 500-1000 years to decompose and during that </br>
+            time poses a threat to wildlife and the environment.
+          </li>
+          <li>
+            Plastics break down into microplastics that works its way up the
+            food chain </br> and into our bodies.
+          </li>
+        </ul>
+      </section>
+      <section class="what-to-do">
+        <img data-aos="fade-left" src="images/beachWaste.jpg" height=400px width=600px class="right-images">
+        <h2 data-aos="flip-up">What You Can Do</h2>
+          
+        <ul data-aos="fade-left">
+          <li>Use reusable items instead of disposable, single-use items.</li>
+          <li>Always recycle your plastics when throwing them away.</li>
+        </ul>
+      </section>
+    </div>
+    <div id="game" data-tab-content>
+      <canvas id="canvas" width="1280" height="720"></canvas>
+      <div style="display: none">
+        <img src="images/game/background.png" id="background" />
+        <img src="images/game/gameBackground.png" id="gameBackground" />
+        <img src="images/game/player.png" id="player">
+        <img src="images/game/trash.png" id="trash">
+        <img
+          src="images/button.png"
+          id="button"
+          height="50px"
+          width="50px"
+        />
+      </div>
+      <div class="back-button-container">
+        <button type="button" id="back-button" title="Go Back">Go Back</button>
+      </div>
+    </div>
+    <script type="module" src="sprites.js"></script>
+    <script type="module" src="game.js"></script>
+    <script src="buttons.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+  </body>
+  <footer>&copy; 2022 Ocean Test</footer>
+</html>
